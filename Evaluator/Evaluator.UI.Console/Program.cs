@@ -12,3 +12,7 @@ Console.WriteLine($"{infix2}={result2}");
 var infix3 = "123.89^(1.6/2.789)";
 var result3 = ExpressionEvaluator.Evaluate(infix3);
 Console.WriteLine($"{infix3}={result3}");
+
+var infix4 = "45.2+45.2";
+var result4 = ExpressionEvaluator.Evaluate(infix4);
+Console.WriteLine($"{infix4}={result4}");
